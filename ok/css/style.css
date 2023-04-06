@@ -694,9 +694,7 @@ span {
     }
 
     .home-img img {
-        width: 200px;
-        left: 90px;
-        bottom: 12px;
+        display: none;
     }
 
     .footer {
