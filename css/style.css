@@ -694,7 +694,10 @@ span {
     }
 
     .home-img img {
-        display: none;
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        margin-right: 10%;
     }
 
     .footer {
@@ -729,6 +732,14 @@ span {
 }
 
 @media (max-width: 768px) {
+
+    .home-img img {
+        width: 85%;
+        display: flex;
+        margin-right: 10%;
+    }
+
+
     #menu-icon {
         display: block;
     }
